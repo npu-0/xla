@@ -20,3 +20,4 @@ cp -arf stablehlo/stablehlo/ code/stablehlo
 
 find code -name tests -type d | xargs -n1 rm -rfv
 find code -name test -type d | xargs -n1 rm -rfv
+find code -name "*_test.cc" -type f | xargs -n1 rm -rfv
